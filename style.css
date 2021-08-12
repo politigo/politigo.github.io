@@ -1,0 +1,40 @@
+body {
+  background-color: #e81b00;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+h1 {
+  font-size: 6em;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+button {
+  background-color: #e81b00;
+  border-width: 0px;
+  color: white;
+}
+
+.button-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction {
+  max-width: 500px;
+}
