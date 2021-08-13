@@ -14,6 +14,20 @@ body {
   .container {
     justify-content: space-between;
   }
+  .CTA {
+    font-size: medium;
+  }
+  .button-holder {
+    justify-content: center !important;
+  }
+}
+@media only screen and (min-width: 461px) {
+  .container {
+    justify-content: space-between;
+  }
+  .button-holder {
+    justify-content: center !important;
+  }
 }
 
 h1 {
@@ -39,8 +53,9 @@ button {
 }
 
 .button-holder {
-  justify-content: flex-end;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .container {
@@ -60,7 +75,7 @@ button {
   margin-bottom: 1em;
   margin-right: 1em;
   font-family: "DM Sans", sans-serif;
-  font-size: medium;
+  font-size: larger;
   cursor: pointer;
 }
 
