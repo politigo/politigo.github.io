@@ -91,6 +91,11 @@ const signUpBetaTester = (language) => {
 const changeLanguage = (language) => {
   displayLangButtons(language);
 
+  slogan = document.getElementById("slogan");
+  introduction = document.getElementById("introduction");
+  ideaCTA = document.getElementById("CTA-idea");
+  slogan = document.getElementById("CTA-tester");
+
   slogan.textContent = texts[language].slogan;
   introduction.textContent = texts[language].text;
   ideaCTA.textContent = texts[language].CTA1;
@@ -98,14 +103,3 @@ const changeLanguage = (language) => {
   testerCTA.textContent = texts[language].CTA2;
   testerCTA.value = language;
 };
-
-document.addEventListener(
-  "DOMContentLoaded",
-  () => {
-    slogan = document.getElementById("slogan");
-    introduction = document.getElementById("introduction");
-    ideaCTA = document.getElementById("CTA-idea");
-    slogan = document.getElementById("CTA-tester");
-  },
-  false
-);
