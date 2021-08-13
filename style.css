@@ -21,8 +21,11 @@ p {
 
 button {
   background-color: #e81b00;
-  border-width: 0px;
+  border: none;
   color: white;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  font-size: medium;
 }
 
 .button-holder {
@@ -33,8 +36,25 @@ button {
 .container {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
 }
 
 .introduction {
   max-width: 500px;
+}
+
+.CTA {
+  border: 0.125em solid white;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  font-family: "DM Sans", sans-serif;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.CTA:hover {
+  text-decoration: underline;
 }

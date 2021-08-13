@@ -5,6 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>PolitiGo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='script.js'></script>
@@ -18,13 +19,18 @@
     <div class="container">
         <h1>PolitiGo</h1>
         <div class="button-holder" id="button-holder">
-            <!-- <button onclick="changeLanguage('DE')">DE</button>
-            <button onclick="changeLanguage('FR')">FR</button> -->
+            <button id="lang1" value="DE" onclick="changeLanguage(value)">DE</button>
+            <button style="cursor: default;"> | </button>
+            <button id="lang2" value="FR" onclick="changeLanguage(value)">FR</button>
         </div>
     </div>
     <h2 id="slogan">Quick. Simple. Neutral.</h2>
     <hr>
-    <p class="introduction" id="introduction">We explore different ways to explain the oh so complicated national referendums. Whether with videos, interviews, summaries, statistics or other. Got an idea yourself? Let us know!</p>
+    <p class="introduction" id="introduction">We explore different ways to explain the oh so complicated popular votes. Got an idea yourself? Let us know!</p>
+    <div>
+        <button class="CTA" id="CTA-idea" type="button" value="EN" onclick="haveAnIdea(value)">I have an idea</button>
+        <button class="CTA" id="CTA-tester" type="button" value="EN" onclick="signUpBetaTester(value)">Sign me up as a beta-tester!</button>
+    </div>
 </body>
 
 </html>
