@@ -105,7 +105,7 @@ document.addEventListener(
     slogan = document.getElementById("slogan");
     introduction = document.getElementById("introduction");
     ideaCTA = document.getElementById("CTA-idea");
-    slogan = document.getElementById("CTA-tester");
+    testerCTA = document.getElementById("CTA-tester");
   },
   false
 );
