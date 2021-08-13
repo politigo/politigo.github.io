@@ -11,14 +11,8 @@ body {
     margin-left: 10em;
     margin-right: 10em;
   }
-  .container {
-    justify-content: space-between;
-  }
   .CTA {
-    font-size: medium;
-  }
-  .button-holder {
-    justify-content: center !important;
+    font-size: medium !important;
   }
 }
 @media only screen and (min-width: 461px) {
@@ -27,6 +21,8 @@ body {
   }
   .button-holder {
     justify-content: center !important;
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
   }
 }
 
@@ -56,6 +52,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-top: 2em;
+  margin-bottom: -2em;
 }
 
 .container {
