@@ -2,8 +2,18 @@ body {
   background-color: #e81b00;
   color: white;
   font-family: "DM Sans", sans-serif;
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .container {
+    justify-content: space-between;
+  }
 }
 
 h1 {
@@ -35,7 +45,6 @@ button {
 
 .container {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap-reverse;
 }
