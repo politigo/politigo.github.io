@@ -7,9 +7,9 @@ const texts = {
   },
   FR: {
     slogan: "Rapide. Simple. Neutre.",
-    text: "Nous explorons différentes façons d'expliquer les ô si compliquées votations populaires. Tu as une idée? Alors, fais-nous en part!",
+    text: "Nous souhaitons rendre les objets de votations compréhensibles par tou·te·x·s! Tu as une idée? Alors, fais-nous en part!",
     CTA1: "J'ai une idée",
-    CTA2: "Inscrivez-moi comme bêta-testeurs.euses!",
+    CTA2: "Inscrivez-moi comme bêtatesteur·euse·x!",
   },
   EN: {
     slogan: "Quick. Simple. Neutral.",
@@ -79,7 +79,7 @@ const signUpBetaTester = (language) => {
       break;
     case "FR":
       mail =
-        "mailto:info@politigo.ch?subject=Inscrivez-moi%20comme%20bêta-testeurs.euses!&body=Bonjour!%0D%0AJ'aimerais%20me%20joindre%20à%20votre%20liste%20de%20bêta-testeurs.euses.%0D%0AMerci!%0D%0AMeilleures%20salutations,%20";
+        "mailto:info@politigo.ch?subject=Inscrivez-moi%20comme%20bêtatesteur·euse·x!&body=Bonjour!%0D%0AJ'aimerais%20me%20joindre%20à%20votre%20liste%20de%20bêtatesteur·euse·x·s.%0D%0AMerci!%0D%0AMeilleures%20salutations,%20";
       break;
     default:
       mail =
